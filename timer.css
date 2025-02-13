@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  font-family: minecraft, sans-serif;
+}
+
+body {
+  background-image: url("images/pxArt\ \(1\).png");
+  background-color: rgb(255, 255, 154);
+
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  margin: 200px auto;
+}
+
+
+.start {
+  display: flex;
+  margin-top: 0%;
+  justify-self: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+button {
+  height: 105%;
+  width: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+  border-color: antiquewhite;
+  border-radius: 30px;
+  border-color: rgb(241, 183, 56);
+  border-style: solid;
+  border-width: 4px;
+  background-color: rgb(248, 217, 159);
+  color: white;
+  font-size: 4rem;
+  letter-spacing: 30px;
+  text-align: center;
+
+  text-align: center;
+
+}
+
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 8rem;
+  margin-bottom: 60px;
+  margin-top: 90px;
+  color: white;
+}
+
+
+.exit {
+  display: flex;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.stop {
+  background-color: white;
+  width: 3px;
+  height: 40px;
+  margin: 20px 10px;
+  cursor: pointer;
+
+}
+
+.stop:nth-child(1) {
+  transform: translateY(0px) rotate(45deg) translateX(16px);
+}
+
+.stop:nth-child(2) {
+  transform: translateY(0px) rotate(-45deg) translateX(-15px);
+}
+
+
+
+.wa {
+  display: none;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  padding-right: 70px;
+  opacity: 1;
+
+}
